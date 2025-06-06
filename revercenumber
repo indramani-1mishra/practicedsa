@@ -1,0 +1,21 @@
+
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		reversenumber(805);
+	}
+	
+	public static void reversenumber(int num){
+	    int temp=num;
+	    int sum =0;
+	    int r=0;
+	    boolean flag=false;
+	    while(num!=0){
+	        r= num%10;
+	        sum= (sum*10)+r;
+	        num=num/10;
+	         }
+	    System.out.println("reversenumber  "+sum);
+	}
+}
